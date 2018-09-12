@@ -23,6 +23,7 @@ public class StudentController {
 
     @RequestMapping("/getAll")
     public List<Student> getAll(){
+        System.out.printf("lala");
         return  studentService.getAll();
     }
 }
